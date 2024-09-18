@@ -1,14 +1,15 @@
-package com.rostyslavhrebeniuk.currencyexchanger.data
+package com.rostyslavhrebeniuk.currencyexchanger.data.repos
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.rostyslavhrebeniuk.currencyexchanger.di.UserDataStore
-import com.rostyslavhrebeniuk.currencyexchanger.utils.getInt
-import com.rostyslavhrebeniuk.currencyexchanger.utils.getString
-import com.rostyslavhrebeniuk.currencyexchanger.utils.putInt
-import com.rostyslavhrebeniuk.currencyexchanger.utils.putString
+import com.rostyslavhrebeniuk.currencyexchanger.domain.UserDataRepository
+import com.rostyslavhrebeniuk.currencyexchanger.data.utils.getInt
+import com.rostyslavhrebeniuk.currencyexchanger.data.utils.getString
+import com.rostyslavhrebeniuk.currencyexchanger.data.utils.putInt
+import com.rostyslavhrebeniuk.currencyexchanger.data.utils.putString
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map

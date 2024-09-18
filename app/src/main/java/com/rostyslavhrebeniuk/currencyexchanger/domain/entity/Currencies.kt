@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.domain
+package com.rostyslavhrebeniuk.currencyexchanger.domain.entity
 
 data class Currencies(
     val base: String,

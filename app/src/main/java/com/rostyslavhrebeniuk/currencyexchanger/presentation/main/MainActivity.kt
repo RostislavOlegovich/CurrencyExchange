@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.main
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.main
 
 import android.os.Bundle
 import android.widget.Toast
@@ -40,9 +40,9 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rostyslavhrebeniuk.currencyexchanger.R
-import com.rostyslavhrebeniuk.currencyexchanger.ui.CurrencyExchangeCompose
-import com.rostyslavhrebeniuk.currencyexchanger.ui.dialog.AlertDialogResult
-import com.rostyslavhrebeniuk.currencyexchanger.ui.theme.CurrencyExchangerTheme
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.CurrencyExchangeCompose
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.dialog.AlertDialogResult
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.theme.CurrencyExchangerTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

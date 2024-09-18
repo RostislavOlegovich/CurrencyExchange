@@ -1,17 +1,13 @@
 
 package com.rostyslavhrebeniuk.currencyexchanger.di
 
-import com.rostyslavhrebeniuk.currencyexchanger.api.ApiCurrency
-import com.rostyslavhrebeniuk.currencyexchanger.data.CurrencyRepository
-import com.rostyslavhrebeniuk.currencyexchanger.data.CurrencyRepositoryImpl
-import dagger.Binds
+import com.rostyslavhrebeniuk.currencyexchanger.data.api.ApiCurrency
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import javax.inject.Qualifier
 import javax.inject.Singleton
 
 @Module

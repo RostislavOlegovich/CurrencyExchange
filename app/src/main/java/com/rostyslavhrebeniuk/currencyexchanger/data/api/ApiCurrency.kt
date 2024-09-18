@@ -1,6 +1,6 @@
-package com.rostyslavhrebeniuk.currencyexchanger.api
+package com.rostyslavhrebeniuk.currencyexchanger.data.api
 
-import com.rostyslavhrebeniuk.currencyexchanger.domain.Currencies
+import com.rostyslavhrebeniuk.currencyexchanger.domain.entity.Currencies
 import retrofit2.Response
 import retrofit2.http.GET
 

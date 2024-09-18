@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.data
+package com.rostyslavhrebeniuk.currencyexchanger.domain
 
 import kotlinx.coroutines.flow.Flow
 

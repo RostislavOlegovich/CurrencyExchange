@@ -1,7 +1,8 @@
-package com.rostyslavhrebeniuk.currencyexchanger.data
+package com.rostyslavhrebeniuk.currencyexchanger.data.repos
 
-import com.rostyslavhrebeniuk.currencyexchanger.api.ApiCurrency
-import com.rostyslavhrebeniuk.currencyexchanger.domain.Currencies
+import com.rostyslavhrebeniuk.currencyexchanger.data.api.ApiCurrency
+import com.rostyslavhrebeniuk.currencyexchanger.domain.entity.Currencies
+import com.rostyslavhrebeniuk.currencyexchanger.domain.CurrencyRepository
 import javax.inject.Inject
 
 class CurrencyRepositoryImpl @Inject constructor(

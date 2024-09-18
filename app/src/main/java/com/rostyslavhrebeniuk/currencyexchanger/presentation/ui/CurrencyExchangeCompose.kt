@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.ui
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.ui
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -27,10 +27,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.rostyslavhrebeniuk.currencyexchanger.R
-import com.rostyslavhrebeniuk.currencyexchanger.main.MainScreen
-import com.rostyslavhrebeniuk.currencyexchanger.ui.dropdown.Dropdown
-import com.rostyslavhrebeniuk.currencyexchanger.ui.theme.CurrencyExchangerTheme
-import com.rostyslavhrebeniuk.currencyexchanger.utils.isDoubleOrDigit
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.main.MainScreen
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.dropdown.Dropdown
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.theme.CurrencyExchangerTheme
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.utils.isDoubleOrDigit
 
 @Composable
 fun CurrencyExchangeCompose(

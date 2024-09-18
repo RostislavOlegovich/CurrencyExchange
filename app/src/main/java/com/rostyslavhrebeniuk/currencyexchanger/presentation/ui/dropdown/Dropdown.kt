@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.ui.dropdown
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.dropdown
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import com.rostyslavhrebeniuk.currencyexchanger.ui.textFieldDefaults
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.textFieldDefaults
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

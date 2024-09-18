@@ -1,10 +1,10 @@
 
 package com.rostyslavhrebeniuk.currencyexchanger.di
 
-import com.rostyslavhrebeniuk.currencyexchanger.data.CurrencyRepository
-import com.rostyslavhrebeniuk.currencyexchanger.data.CurrencyRepositoryImpl
-import com.rostyslavhrebeniuk.currencyexchanger.data.UserDataRepository
-import com.rostyslavhrebeniuk.currencyexchanger.data.UserDataRepositoryImpl
+import com.rostyslavhrebeniuk.currencyexchanger.domain.CurrencyRepository
+import com.rostyslavhrebeniuk.currencyexchanger.data.repos.CurrencyRepositoryImpl
+import com.rostyslavhrebeniuk.currencyexchanger.domain.UserDataRepository
+import com.rostyslavhrebeniuk.currencyexchanger.data.repos.UserDataRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

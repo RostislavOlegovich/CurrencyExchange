@@ -1,15 +1,15 @@
-package com.rostyslavhrebeniuk.currencyexchanger.main
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.rostyslavhrebeniuk.currencyexchanger.data.CurrencyRepository
-import com.rostyslavhrebeniuk.currencyexchanger.data.UserDataRepository
+import com.rostyslavhrebeniuk.currencyexchanger.domain.CurrencyRepository
+import com.rostyslavhrebeniuk.currencyexchanger.domain.UserDataRepository
 import com.rostyslavhrebeniuk.currencyexchanger.di.CurrencyRepositoryAnnotation
 import com.rostyslavhrebeniuk.currencyexchanger.di.DefaultDispatcher
 import com.rostyslavhrebeniuk.currencyexchanger.di.UserDataRepositoryAnnotation
-import com.rostyslavhrebeniuk.currencyexchanger.domain.ConversionResult
-import com.rostyslavhrebeniuk.currencyexchanger.domain.Currencies
-import com.rostyslavhrebeniuk.currencyexchanger.utils.roundTo
+import com.rostyslavhrebeniuk.currencyexchanger.domain.entity.ConversionResult
+import com.rostyslavhrebeniuk.currencyexchanger.domain.entity.Currencies
+import com.rostyslavhrebeniuk.currencyexchanger.presentation.utils.roundTo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.delay

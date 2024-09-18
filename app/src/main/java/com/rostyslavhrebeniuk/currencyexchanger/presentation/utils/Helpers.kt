@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.utils
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.utils
 
 import android.text.TextUtils
 import kotlin.math.pow

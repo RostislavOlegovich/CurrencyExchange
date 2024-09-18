@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.ui.dialog
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.dialog
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Text
@@ -6,7 +6,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import com.rostyslavhrebeniuk.currencyexchanger.R
-import com.rostyslavhrebeniuk.currencyexchanger.domain.ConversionResult
+import com.rostyslavhrebeniuk.currencyexchanger.domain.entity.ConversionResult
 
 @Composable
 fun AlertDialogResult(

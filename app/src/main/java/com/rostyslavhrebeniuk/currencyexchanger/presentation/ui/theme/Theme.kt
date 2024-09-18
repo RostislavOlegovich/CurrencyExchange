@@ -1,4 +1,4 @@
-package com.rostyslavhrebeniuk.currencyexchanger.ui.theme
+package com.rostyslavhrebeniuk.currencyexchanger.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
